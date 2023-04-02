@@ -1,0 +1,98 @@
+html{
+    background-color: #f8d3f5;
+  }
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 95%;
+    height: 90%;
+    margin:auto;
+}
+.page-main{
+    background-color:#e294c8;
+    border-radius: 5px;
+  }
+
+  .page-header {
+    background-color:#e294c8;
+    color: #000000;
+    padding-top:30px;
+    padding-bottom:70px;
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .days-list{
+    height: 350px;
+    list-style-type: none;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+  .page-footer
+  { 
+    font-style:italic;
+    font-family:Arial, sans-serif;
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color:#e294c8;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  h1{
+    margin: 0 auto;
+    white-space:pre;
+  }
+  h2{
+    white-space:pre;
+    color: #ee3cd6;
+    padding-left:80px;
+  }
+  .accent{
+    color:#ee3cd6;
+    font-weight:100;
+  }
+  .klien{
+    text-align: center;
+    line-height: 5px;
+  }
+  .day{
+    border:#c565a5 3px solid;
+    border-radius: 5px;
+    background-color: #f8d3f5;
+  }
+  ul {
+    padding-top: 5%;
+    margin-left: 5%;
+  }
+  p{
+    margin-left: 50px;
+    margin-right: auto;
+    white-space:pre;
+  }
+.quote{
+    display:block;
+    position:absolute;
+    left:750px;
+    top:40px;
+    white-space:pre;
+    font-weight:900;
+}
+cite{
+    display:block;
+    position:absolute;
+    left:750px;
+    top:110px;
+    white-space:pre;
+    font-family:Arial, sans-serif;
+}
+ul{
+    list-style-type:circle;
+    list-style-position:inside;
+}
